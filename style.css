@@ -1,30 +1,65 @@
+/* Загальні стилі для сторінки */
 body {
-front-family: Arial, sans-serif;
-background-color: #f0f0f0;
-color: #333;
-text-align: center;
-}
-
-img {
-  border-radius: 10px;
-}
-
-.title {
-    color:blue;
-    text-align: center;
-    
-}
-div 1 {
-    background-color: green;
-    padding: 20px;
+    background-color: #f9f9f9;   /* Світлий фон */
+    font-family: Arial, sans-serif;
+    text-align: center;          /* Центруємо текст */
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Заголовки */
+  h1 {
+    color: darkblue;
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #444;
+    font-size: 28px;
+    margin-top: 25px;
     margin-bottom: 15px;
-
-}
-
-div 2 {
-    padding: 20px;
-}
-
-link {
-   color: red;
-}
+  }
+  
+  /* Абзаци */
+  p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  /* Списки */
+  ul {
+    list-style-type: square;
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+  
+  /* Блоки (div) */
+  div {
+    margin-bottom: 25px;  /* Відступ між блоками */
+    padding: 15px;
+    background-color: #e6f0ff; /* Легкий блакитний фон для блоків */
+    border-radius: 10px;       /* Скруглення кутів */
+    display: inline-block;     /* Щоб ширина відповідала контенту */
+  }
+  
+  /* Зображення */
+  img {
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px 0;
+  }
+  
+  /* Посилання */
+  a {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #ff6600;       
+    text-decoration: underline;
+  }
